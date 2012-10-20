@@ -128,7 +128,7 @@ hi htmlEndTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE cterm
 
 " Visual Mode
 "
-hi Visual guifg=#efefef guibg=#101010 guisp=#101010 gui=NONE ctermfg=15 ctermbg=0 cterm=NONE
+hi Visual guifg=#101010 guibg=#efefef guisp=NONE gui=NONE ctermfg=0 ctermbg=15 cterm=NONE
 "hi VisualNOS guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 
 " TODO
