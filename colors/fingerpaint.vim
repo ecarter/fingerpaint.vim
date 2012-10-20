@@ -54,7 +54,6 @@ hi PreCondit guifg=#bebebe guibg=NONE guisp=NONE gui=NONE ctermfg=7 ctermbg=NONE
 hi PreProc guifg=#d46a28 guibg=NONE guisp=NONE gui=NONE ctermfg=7 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#84A7C1 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi Search guifg=NONE guibg=#1C3B79 guisp=#1C3B79 gui=NONE ctermfg=NONE ctermbg=6 cterm=NONE
-hi SpecialKey guifg=#333333 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 hi Statement guifg=#d4d455 guibg=NONE guisp=NONE gui=bold ctermfg=185 ctermbg=NONE cterm=bold
 hi StatusLine guifg=#4b5a5c guibg=NONE guisp=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
@@ -74,6 +73,18 @@ hi cformat guifg=#a1d06b guibg=#403940 guisp=#403940 gui=NONE ctermfg=149 ctermb
 hi condtional guifg=#8fffff guibg=NONE guisp=NONE gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE
 hi cspecialcharacter guifg=#a1d06b guibg=#403940 guisp=#403940 gui=NONE ctermfg=149 ctermbg=238 cterm=NONE
 hi cursorim guifg=#000000 guibg=#add8e6 guisp=#add8e6 gui=NONE ctermfg=NONE ctermbg=152 cterm=NONE
+hi kde guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi lcursor guifg=#000000 guibg=#006400 guisp=#006400 gui=NONE ctermfg=NONE ctermbg=22 cterm=NONE
+hi mbechanged guifg=#eed6ee guibg=#3f3b28 guisp=#3f3b28 gui=NONE ctermfg=255 ctermbg=237 cterm=NONE
+hi mbenormal guifg=#99c0cf guibg=#3f3b28 guisp=#3f3b28 gui=NONE ctermfg=152 ctermbg=237 cterm=NONE
+hi mbevisiblechanged guifg=#eed6ee guibg=#8f7540 guisp=#8f7540 gui=NONE ctermfg=255 ctermbg=101 cterm=NONE
+hi mbevisiblenormal guifg=#cfcfb8 guibg=#8f7540 guisp=#8f7540 gui=NONE ctermfg=187 ctermbg=101 cterm=NONE
+hi myspecialsymbols guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi spelllocale guifg=NONE guibg=#ffff00 guisp=#ffff00 gui=NONE ctermfg=NONE ctermbg=11 cterm=NONE
+hi subtitle guifg=#FFFFFF guibg=#994444 guisp=#994444 gui=bold,underline ctermfg=15 ctermbg=131 cterm=bold,underline
+
+" Doxygen Toolkit
+"
 hi doxygenbrief guifg=#46e2fd guibg=NONE guisp=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi doxygencomment guifg=#0f7bad guibg=NONE guisp=NONE gui=NONE ctermfg=31 ctermbg=NONE cterm=NONE
 hi doxygenparam guifg=#77dcfd guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
@@ -82,17 +93,14 @@ hi doxygensmallspecial guifg=#77dcfd guibg=NONE guisp=NONE gui=NONE ctermfg=117 
 hi doxygenspecial guifg=#77dcfd guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
 hi doxygenspecialmultilinedesc guifg=#a7acad guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 hi doxygenspecialonelinedesc guifg=#a7acad guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
-hi kde guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
-hi lcursor guifg=#000000 guibg=#006400 guisp=#006400 gui=NONE ctermfg=NONE ctermbg=22 cterm=NONE
-hi mbechanged guifg=#eed6ee guibg=#3f3b28 guisp=#3f3b28 gui=NONE ctermfg=255 ctermbg=237 cterm=NONE
-hi mbenormal guifg=#99c0cf guibg=#3f3b28 guisp=#3f3b28 gui=NONE ctermfg=152 ctermbg=237 cterm=NONE
-hi mbevisiblechanged guifg=#eed6ee guibg=#8f7540 guisp=#8f7540 gui=NONE ctermfg=255 ctermbg=101 cterm=NONE
-hi mbevisiblenormal guifg=#cfcfb8 guibg=#8f7540 guisp=#8f7540 gui=NONE ctermfg=187 ctermbg=101 cterm=NONE
-hi myspecialsymbols guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+
+" Perl
+"
 hi perlspecialmatch guifg=#a1d06b guibg=#403940 guisp=#403940 gui=NONE ctermfg=149 ctermbg=238 cterm=NONE
 hi perlspecialstring guifg=#a1d06b guibg=#403940 guisp=#403940 gui=NONE ctermfg=149 ctermbg=238 cterm=NONE
-hi spelllocale guifg=NONE guibg=#ffff00 guisp=#ffff00 gui=NONE ctermfg=NONE ctermbg=11 cterm=NONE
-hi subtitle guifg=#FFFFFF guibg=#994444 guisp=#994444 gui=bold,underline ctermfg=15 ctermbg=131 cterm=bold,underline
+
+" Tag List
+"
 hi taglistcomment guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
 hi taglistfilename guifg=#ffffff guibg=#870087 guisp=#870087 gui=NONE ctermfg=15 ctermbg=90 cterm=NONE
 hi taglisttagname guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
@@ -126,12 +134,26 @@ hi htmlTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=
 hi htmlTagName guifg=#CCCCCC guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
 hi htmlEndTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
 
+" Make
+"
+hi makeCommands guifg=#d3e9eb guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi makeSpecial guifg=#b54cb5 guibg=NONE guisp=NONE gui=bold ctermfg=133 ctermbg=NONE cterm=bold
+
 " Visual Mode
 "
 hi Visual guifg=#101010 guibg=#efefef guisp=NONE gui=NONE ctermfg=0 ctermbg=15 cterm=NONE
 "hi VisualNOS guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 
-" TODO
+" Special
+"
+hi SpecialKey guifg=#333333 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
+"hi SpellBad guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+"hi SpellCap guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+"hi SpellLocal guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+"hi SpellRare guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+"hi TabLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+
+" CTags
 "
 "hi CTagsClass guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi CTagsGlobalConstant guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -139,6 +161,9 @@ hi Visual guifg=#101010 guibg=#efefef guisp=NONE gui=NONE ctermfg=0 ctermbg=15 c
 "hi CTagsImport guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi CTagsMember guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi CursorColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+
+" TODO
+"
 "hi Debug guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi DefinedName guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Delimiter guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -154,11 +179,6 @@ hi Visual guifg=#101010 guibg=#efefef guisp=NONE gui=NONE ctermfg=0 ctermbg=15 c
 "hi Special guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi SpecialChar guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi SpecialComment guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi SpellBad guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi SpellCap guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi SpellLocal guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi SpellRare guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi TabLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi TabLineFill guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi TabLineSel guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Tag guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
