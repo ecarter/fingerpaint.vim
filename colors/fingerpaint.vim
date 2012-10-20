@@ -126,6 +126,11 @@ hi htmlTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=
 hi htmlTagName guifg=#CCCCCC guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
 hi htmlEndTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
 
+" Visual Mode
+"
+hi Visual guifg=#efefef guibg=#101010 guisp=#101010 gui=NONE ctermfg=15 ctermbg=0 cterm=NONE
+"hi VisualNOS guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+
 " TODO
 "
 "hi CTagsClass guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -159,8 +164,6 @@ hi htmlEndTag guifg=#aaaaaa guibg=NONE guisp=#008700 gui=NONE ctermfg=NONE cterm
 "hi Tag guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Union guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi Visual guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-"hi VisualNOS guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi WarningMsg guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi WildMenu guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi clear guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
