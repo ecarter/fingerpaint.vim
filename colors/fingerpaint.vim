@@ -1,8 +1,11 @@
-" Vim color file - fingerpaint
+" Vim color file
 "
-" Author: Erin Carter <hi@dnvsfn.com>
+" Maintainer: Erin Carter <hi@dnvsfn.com>
+" Last Change: 2012 Oct. 19
+" Version: 0.1
+" URL: https://github.com/ecarter/fingerpaint.vim
 "
-" NOTE: dark vim color scheme
+" fingerpaint - a dark vim color scheme
 
 set background=dark
 
