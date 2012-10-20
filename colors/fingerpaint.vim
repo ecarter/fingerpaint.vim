@@ -59,7 +59,7 @@ hi Statement guifg=#d4d455 guibg=NONE guisp=NONE gui=bold ctermfg=185 ctermbg=NO
 hi StatusLine guifg=#4b5a5c guibg=NONE guisp=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#84A7C1 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
-hi String guifg=#55c269 guibg=NONE guisp=NONE gui=italic ctermfg=78 ctermbg=NONE cterm=NONE
+hi String guifg=#55c269 guibg=NONE guisp=NONE gui=NONE ctermfg=78 ctermbg=NONE cterm=NONE
 hi Structure guifg=#84A7C1 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi Title guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi Todo guifg=NONE guibg=#913891 guisp=#913891 gui=NONE ctermfg=NONE ctermbg=96 cterm=NONE
